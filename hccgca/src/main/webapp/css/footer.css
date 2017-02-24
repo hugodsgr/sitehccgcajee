@@ -1,0 +1,82 @@
+/* va t'on garder le texte ou mettre un logo? si on garde le texte je dois faire le @media query pour gérer plusieurs cas,
+
+*/
+
+.white-blue {
+  min-height: 200px;
+  background-color: #35465f;
+  color: white;
+}
+
+.dark-blue {
+  background-color: #20324e;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.underline {
+  margin-left: 130px;
+  width: 210px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid white;
+  margin-bottom: 8px;
+}
+
+#description-cabinet  {
+  font-size: 1.2em;
+  height:200px;
+  line-height:250px;
+
+/*  width:200px;
+  background:#ccc;
+  margin-left: 10%;
+  text-align:center; */
+}
+
+#span-description {
+    width:320px;
+    padding:10px;
+    margin-left: 10%;
+    vertical-align:middle;
+    display:inline-block;
+    line-height:1.2;
+
+    /*border:1px solid #fff;
+    text-align:left; */
+
+  }
+
+@media all and (max-width: 1199px) {
+
+  #description-cabinet  {
+    padding: 5px;
+    font-size: 1.5em;
+    height:auto;
+    line-height:normal;
+    text-align:center;
+
+    /*width: 60%;
+      background:#ccc; */
+   }
+
+  #span-description {
+    width:auto; /* largeur de la zone de texte */
+    padding:0; /* aération interne de la zone de texte */
+    border:0;
+<<<<<<< HEAD
+    margin: 0;
+=======
+    margin:0;
+>>>>>>> origin/master
+
+    /*vertical-align:middle;
+    line-height:1.2;
+    text-align:center;  */
+    }
+
+    .horizontal-line {
+      width: 30%;
+    }
+
+}
