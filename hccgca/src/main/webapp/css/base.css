@@ -100,6 +100,10 @@ text-align: center;
   color : white;
 }
 
+.text_black{
+  color: black;
+}
+
 .background_grey{
   background-color: grey;
 }
@@ -500,3 +504,7 @@ textarea.noresize{
     padding-top: 0px;
     padding-left: 10px;
   }
+
+.navbar-default .navbar-nav>li>a{
+  color: white;
+}

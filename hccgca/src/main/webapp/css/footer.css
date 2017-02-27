@@ -1,6 +1,21 @@
-/* va t'on garder le texte ou mettre un logo? si on garde le texte je dois faire le @media query pour gérer plusieurs cas,
 
-*/
+hr{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.margin_footer_title {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.info_footer_contact {
+  margin-top: 20px;
+}
+
+.margin_footer {
+  margin-bottom: 0px;
+}
 
 .white-blue {
   min-height: 200px;
@@ -24,9 +39,9 @@
 }
 
 #description-cabinet  {
-  font-size: 1.2em;
-  height:200px;
-  line-height:250px;
+  font-size: 1.1em;
+  height:172px;
+  line-height:220px;
 
 /*  width:200px;
   background:#ccc;
@@ -64,19 +79,11 @@
     width:auto; /* largeur de la zone de texte */
     padding:0; /* aération interne de la zone de texte */
     border:0;
-<<<<<<< HEAD
-    margin: 0;
-=======
-    margin:0;
->>>>>>> origin/master
 
     /*vertical-align:middle;
     line-height:1.2;
     text-align:center;  */
     }
 
-    .horizontal-line {
-      width: 30%;
-    }
 
 }

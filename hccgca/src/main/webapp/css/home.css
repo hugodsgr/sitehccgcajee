@@ -184,49 +184,21 @@ border-color: #2d466d;
 }
 
 
-#slide1 {
+.slide1 {
    background: url(../img/white.PNG) center 0 no-repeat fixed;
-<<<<<<< HEAD
-<<<<<<< HEAD
    height: 300px;
 }
 
-#slide2 {
-   background:url(../img/diagmonds--light--1920x1080GRIS.png) center 0 no-repeat fixed;
-=======
+.slide2 {
+   background:url(../img/diagmonds--light--1920x1080.png) center 0 no-repeat fixed;
    min-height: 350px;
-=======
->>>>>>> origin/master
 }
 
-#slide2 {
-   background:url(../img/shattered-1920x1080.png) center 0 no-repeat fixed;
-<<<<<<< HEAD
-   min-height: 350px;
->>>>>>> origin/master
-=======
->>>>>>> origin/master
-}
-
-#slide3 {
-   background: url(../img/white.PNG) center 0 no-repeat fixed;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-   min-height: 350px;
->>>>>>> origin/master
-=======
->>>>>>> origin/master
-}
-
-#slide4 {
+.slide3 {
    background: url(../img/shattered-1920x1080.png) center 0 no-repeat fixed;
+   opacity: 0.9;
 }
 
-#slide5 {
-   background: url(../img/white.PNG) center 0 no-repeat fixed;
-   height: 1000px;
-}
 
 
 .visibility_hidden{
